@@ -1,0 +1,115 @@
+@keyframes bling{
+	0% {box-shadow: 2px 2px 5px 2px gold; background: burlywood;}
+	/*30% {box-shadow: 2px 2px 50px 15px gold;}*/
+	60% {box-shadow: 2px 2px 200px 20px lightgoldenrodyellow;}
+	/*65% {box-shadow: 2px 2px 900px 20px gold;}*/
+	100% {box-shadow: 2px 2px 5px 2px gold; background: lightgoldenrodyellow;}
+	
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	box-shadow: 2px 2px 5px 2px gold;
+	background: burlywood;
+	border: solid 3px bisque;
+	
+	position: relative;
+	margin: 0 auto;
+	
+	animation: bling 3s ease-out infinite;
+	-webkit-animation: bling 3s ease-out infinite;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	vertical-align: middle;
+	 
+}
+
+.sq-middle{
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+.sq-right{
+	display: inline-block;
+	
+}
+
+.sq-left{
+	display: inline-block;
+}
+
+div.sq-center{
+	display: inline-block;
+	
+	/*box-shadow: inset 0px 0px 10px fuchsia;*/
+	border: solid 3px gold;
+	
+}
+
+.sq-center .icon-2{
+	position: relative;
+	width: 24px;
+	height: 24px;
+
+	background: url(../img/a.jpg) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	display: inline-block;
+	vertical-align: middle;
+	
+	z-index: 100;
+	
+	-webkit-transition:  transform 0.5s ease, background 0.2s linear, opacity 0.5s ease;
+	transition:  transform 0.5s ease, background 0.2s linear, opacity 0.5s ease;
+}
+
+.sq-center .icon-2:hover {
+	transform: scale(35, 35);
+	-webkit-transform: scale(35, 35);
+	background: url(../img/b.jpg);
+	background-size:100% 100% ;
+	opacity: 0.3;
+	
+}
+
+.sq-center .icon {
+	width: 100px;
+	height: 100px;
+	opacity: 1;
+	
+	background: url(../img/a.jpg) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: transform;
+	-webkit-transition:  transform 0.5s ease, background 0.2s linear, width 2s linear, opacity 0.5s ease;
+}
+
+.sq-center .icon:hover {
+	/*transform: scale(10, 10);*/
+	-webkit-transform: scale(10, 10);
+	opacity:0.3;
+	background: url(../img/b.jpg) no-repeat;
+	background-size: 100% 100%;
+	/*-webkit-transform: background-size:240px 240px;*/
+	/*-webkit-transform: width:500px;*/
+}
+
+body {
+	background: darkblue;
+	/*background: rgba(51, 133, 235, 1);*/
+}
+
+.star {
+	height: 0px;
+    width: 0px;
+    border: solid 1px gold;
+    border-radius: 17px;
+    box-shadow: 0 0 10px 10px lightgoldenrodyellow;
+    position: absolute;
+}
+
+article {
+	text-align: center; 
+	margin-top: 150px;
+}

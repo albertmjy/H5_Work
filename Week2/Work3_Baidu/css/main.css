@@ -1,0 +1,282 @@
+body{
+	font-family: arial;
+}
+
+.top-bar{
+	float: right;
+	font-weight: bolder;
+	font-size:13px;
+	margin: 3px;
+	line-height: 30px;
+}
+
+.top-bar > a{
+	color: black;
+	margin: 0px 7px;
+	position: relative;
+	z-index: 100;
+}
+
+#setting-menu{
+	position: absolute;
+	
+	padding: 0;
+	border: solid 1px #CDCDCD;
+	
+	right: 82px;
+	width: 70px;
+	
+	box-shadow: 1px 1px 4px 1px #DDDDDD;
+	
+	z-index: 1000;
+	cursor: pointer;
+
+}
+
+#setting-menu > div{
+	padding: 1px 8px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+#setting-menu div:hover{
+	background: #3385FF;
+	color: ghostwhite;
+}
+
+#setting-menu .arrow-up{
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	padding: 0;
+	margin: 0;
+	border: solid 5px transparent;
+	border-bottom: solid 5px #CDCDCD;
+	
+	
+	left: 50%;
+	margin-left: -5px;
+	top: -10px;
+}
+
+#setting-menu .arrow-up div{
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	border: solid 5px transparent;
+	border-bottom: solid 5px white;
+	
+	top: -4px;
+	left: -5px;
+}
+
+a#more_prod {
+	background: #317EF3;
+	color: white;
+	font-weight: bolder;
+	
+	display: inline-block;
+	height: 28px;
+	width:70px;
+	
+	
+	text-align: center;
+	text-decoration: none;
+	
+	transition: background 0.5s, color 0.5s; 
+}
+a#more_prod:hover {
+	background: transparent;
+	color: black;
+}
+
+#more_prod_list{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 100px;
+	height: 100%;
+	z-index: 10;
+	
+	border-left: solid 1px #eee;
+	text-align: center;
+	padding-top: 46px;
+	
+	background: #fafafa;
+	
+	display: none;
+	
+}
+
+#more_prod_list:hover {
+	
+}
+
+#more_prod_list .pd-icon {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 38px;
+	height: 36px;
+	/*margin-left: 20px;*/
+	
+	
+}
+
+#more_prod_list section {
+	position: relative;
+	margin: 7px auto;
+	width: 70px;
+	border-bottom: solid 1px #eee ;
+	cursor: pointer;
+}
+
+.icon-1{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-72px 0;	
+}
+.icon-2{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-111px 0;	
+	
+}
+.icon-3{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-36px 0;	
+}
+.icon-4{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-144px 0;	
+}
+.icon-5{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-180px 0;	
+}
+.icon-6{
+	background: url(../img/bdbri_icons_2e35e84b.png) no-repeat transparent;
+	background-position:-218px 0;	
+}
+
+#more_prod_list .pd-name{
+	color: gray;
+}
+
+.content {
+	clear: both;
+	text-align: center;
+}
+
+.logo {
+	
+}
+
+.search-form{
+	position: relative;
+	top: 30px;
+}
+
+.search-frame {
+	border: solid 1px #ccc;
+	width: 500px;
+	height: 34px;
+	
+	display: inline-block;
+}
+
+.search-frame:focus {
+	border-color: #3385FF;
+}
+
+.search-frame .mic-icon{
+	height: 27px;
+	width: 25px;
+	display: inline-block;
+	background: url(../img/mic.png);
+	background-size: 25px 25px;
+	
+	vertical-align: middle;
+}
+.search-frame .mic-icon:hover {
+	background: url(../img/mic_blue.png);
+	background-size: 25px 25px;
+}
+
+/*.search-frame img{
+	vertical-align: middle;
+}*/
+
+#search-box {
+	width: 460px;
+	height: 30px;
+	border: 0;
+	margin: 0;
+	padding: 2px 5px;
+	
+	font-size: 14px;
+}
+
+#search-box:focus {
+	outline: none;
+	
+}
+
+
+#search-btn {
+	width: 100px;
+	height: 36px;
+	margin: 0;
+	border: solid 1px #3385FF;
+	
+	vertical-align: top;
+	
+	font-size: 16px;
+	color: white;
+	background: #3385ff;
+}
+
+#search-btn:hover {
+	background: #317ef3;
+	cursor: pointer;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 280px;
+	
+	font-size: 13px;
+}
+
+.footer > .line1{
+	margin: 5px 0;
+}
+
+.line1 a {
+	margin: 0 5px;
+}
+
+.line1 a:visited {
+	color: blue;
+}
+
+.footer > div:nth-child(2){
+	color: gray;
+}
+
+.gray-a{
+	color: gray;
+}
+.gray-a:visited{
+	color: gray;
+}
+
+.footer .an-icon{
+	height: 20px;
+	width: 20px;
+	background: url(../img/icons_45de3f02.png) -600px -93px no-repeat;
+	/*background-size: 750px 260px;*/
+	background-position: -600px -93px;
+	display: inline-block;
+	
+}

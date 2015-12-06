@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			div.frame {
+				/*height: 100px;*/
+				
+				width: 500px;
+				border: solid 1px #0000FF;
+			}
+			#rel-parent {
+				height: 100px;
+				width: 500px;
+				border: solid 1px #0000FF;
+				position: relative;
+			}
+			#abs-child {
+				border: solid 1px #008000;
+				position: absolute;
+				/* ----------- a -------------
+				 * |                         |
+				 * |                         |
+				 * b            ----0.5a ----|
+				 * |       0.3b |           ||
+				 * |             ----------- |
+				 * ---------------------------
+				 * 
+				 * 
+				 * */
+				
+				left: 50%;
+				top: 50%;
+				height: 30%;
+				width: 50%;
+				/*margin: -15% 0 0 -25%;*/
+				/*-15% is not correct,  use common factor, a*/
+				
+				;
+				margin: -3% 0 0 -25%;
+				/* -0.03a = 0.15b*/
+			}
+			#rel-parent-2 {
+				height: 100px;
+				width: 500px;
+				border: solid 1px #0000FF;
+				position: relative;
+			} 
+			
+			#abs-child-2 {
+				border: solid 1px #008000;
+				
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 50%;
+				height: 30%;
+				margin: auto;
+			}
+			
+			#p{
+				height: 100px;
+				width: 500px;
+				border: solid 1px #0000FF;
+				padding: 5% 0;
+			}
+			#c{
+				padding: 10% 0;
+			}
+			
+			#p2{
+				height: 200px;
+				width: 500px;
+				border: solid 1px #0000FF;
+			}
+			#float{
+				float: left;
+				height: 50%;
+				width: 100%;
+				margin-bottom: -50px;
+			}
+			#c2 {
+				height: 100px;
+				clear: both;
+				border: solid 1px #0000FF;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="frame" style="line-height: 100px;">
+			<span>asdfsdfsd</span>
+			<img src="img/th.jpeg" width="50px" style="vertical-align: middle;" />
+		</div>
+
+		<!--set line height-->
+		<div id="" class="frame">
+			<div style="line-height: 100px;">
+				aaaaaaa
+			</div>
+		</div>
+		<!--  (block) line-height: 100
+				(inline-block) vertical-align: middle
+		-->
+		<div class="frame" style="line-height: 100px;">
+			<img src="img/th.jpeg" width="50px" style="vertical-align: middle;" />
+		</div>
+
+		<div class="frame" style="display: table; height: 100px;">
+			<div style="display: table-cell; vertical-align: middle;">df</div>
+		</div>
+
+		<div id="rel-parent">
+			<div id="abs-child">a</div>
+		</div>
+
+		<div id="rel-parent-2">
+			<div id="abs-child-2">
+d
+			</div>
+		</div>
+		
+		<div id="p">
+			<div id="c">ggg</div>
+		</div>
+		
+		<div id="p2">
+			<div id="float"></div>
+			<div id="c2"></div>
+		</div>
+	</body>
+
+</html>

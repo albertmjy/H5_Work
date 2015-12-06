@@ -1,0 +1,128 @@
+/*Global*/
+body{
+	font-size: 12px;
+	background: lightskyblue;
+}
+
+input{
+	height: 16px;
+	line-height: 16px;
+}
+
+/*header part*/
+.logo {
+	position: relative;
+	text-align: left;
+	
+}
+
+nav {
+	/*text-align: right;*/
+}
+
+.red {
+	color: red;
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+}
+
+em {
+	color: red;
+	font-style: normal;
+}
+
+/* main part*/
+main {
+	width: 700px;
+	margin: auto;
+	background: #03A9F4;
+	box-shadow: 2px 2px 10px 8px aliceblue;
+	/*border: solid 1px #00008B;*/
+}
+.intro {
+	border: solid 1px #CCCCCC;;
+	border-bottom: 0;
+	text-align: center;
+	background: lightcyan;
+}
+
+table {
+	border: solid 1px #CCCCCC;
+	width: 700px;
+	
+	background: ghostwhite;
+	
+}
+
+td {
+	border-top: solid 1px #CCCCCC;
+	padding: 5px;
+}
+
+header.sub-header{
+	height: 25px;
+	line-height: 25px;
+	text-indent: 4px;
+	color: darkblue;
+	font-weight: bold;
+	
+	background: #EEEEEE;
+	border: solid 1px #CCCCCC;
+	border-bottom: 0 ;
+}
+
+tr > td:first-child {
+	text-align: right;
+	border-right: solid 1px #CCCCCC;
+}
+
+
+
+.lb-required:before {
+	content: "*";
+	color: red;
+}
+
+.lb-required:after{
+	content: ":";
+	
+}
+
+.lb-opt:after {
+	content: ":";
+}
+
+.explain-text {
+	color: blue;
+}
+
+textarea {
+	width: 450px;
+	height: 100px;
+}
+
+label.itm-sub{
+	font-weight: bold;
+}
+
+label.itm-sub:before{
+	content: "----";
+	font-weight: bold;
+}
+
+label.itm-sub:after{
+	content: "----";
+	font-weight: bold;
+}
+
+td.submit{
+	height: 100px;
+	text-align: center !important;
+}
+
+.submit input {
+	width: 90px;
+}

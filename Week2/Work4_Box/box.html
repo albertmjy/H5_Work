@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Box Box Box</title>
+		<link rel="stylesheet" href="css/box.css" />
+	</head>
+	<body>
+		
+		<section>
+			<div>盒子：总长度 ＝ margin*2 + padding*2 + border*2 + width = 270px<br />
+			&nbsp;&nbsp; 盒内空间去除padding*2依旧 200px</div>
+			<div>鞋子：margin, padding, border, width占据所有200的空间，没有任何缝隙</div>
+			<div><mark>左右两个盒子都是width:110px; 左边的加上了padding和border，所以撑大并占满了整个盒子，
+				右边只改变了box-sizing: border-box，所以padding和border不影响盒子的大小仍为110px，没有撑大</mark></div>
+			<div><mark>最下面的盒子在box-sizing:border-box 的基础上将width:200px,然后border和padding不会对之后盒子大小造成影响</mark></div>
+		</section>
+		<div class="shoes-box">
+			<div class="shoes">Shoes</div>
+		</div>
+		<div class="shoes-box">
+			<div class="shoes-1">Shoes</div>
+		</div>
+		
+		<hr />
+		<section>
+			<div>border-box的时候，设定width以后，padding的改变和border改变是<em><mark>不会影响盒子总的宽度的</mark></em></div>
+			<div></div>(默认)content-box的时候，设定width以后，padding的设置和border设置是<em><mark>会被加到盒子总的宽度</mark></em></p>
+		</section>
+		<div class="shoes-box">
+			<div class="shoes-2">填满盒子，设为border-box, margin设为0,宽高设为180，padding和border随意设不会更改盒子大小</div>
+		</div>
+	</body>
+</html>
