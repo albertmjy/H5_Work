@@ -1,0 +1,34 @@
+[
+	{
+		"src": "http://a1.jikexueyuan.com/home/201510/08/b481/5615cd7d3e99f.png",
+		"title": "WEB大前端工程师",
+		"p1": "月薪15k-30k",
+		"p2": "Web开发的未来趋势"
+	},
+	{
+		"src": "http://a1.jikexueyuan.com/home/201509/28/a649/560905e64a9d1.png",
+		"title": "Android工程师",
+		"p1": "月薪5k-30k",
+		"p2": "最火爆的职业 人才缺口大"
+	},
+	{
+		"src": "http://a1.jikexueyuan.com/home/201510/08/a7fc/56160c8b90692.png",
+		"title": "iOS开发工程师",
+		"p1": "月薪6k-30k",
+		"p2": "企业必争的人才资源"
+	},
+	{
+		"src": "",
+		"content": "<h2>iOS开发工程师</h2><p>月薪6k-30k</p> <p>企业必争的人才资源</p>"
+	},
+	{
+		"src": "http://a1.jikexueyuan.com/home/201510/08/be91/5616279756548.png",
+		"content": "<h2>JavaWeb工程师</h2><p>月薪6k-35k</p><p>就业面最广的职业方向</p>"
+	},
+	{
+		"src": "http://a1.jikexueyuan.com/home/201510/08/24d8/56162481a1ed6.png",
+		"content": "<h2>PHP工程师</h2><p>月薪5k-35k</p> <p>最好的开发语言 没有之一</p>"
+	}
+	
+	
+]

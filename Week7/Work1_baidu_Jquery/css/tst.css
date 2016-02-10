@@ -1,0 +1,12 @@
+.t{
+	float-left: ;
+	_margin-right:-3px; /*ie6  ie8?*/
+	+margin-right:-3px; /* ie7 */
+	*margin-right:-3px; /* ie6 + ie7 */
+	
+	margin-left: 9px \9;  /* only ie */
+}
+
+* html .t{
+	margin-right:-3px
+}

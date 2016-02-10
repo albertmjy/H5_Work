@@ -1,0 +1,320 @@
+
+ul>li{
+	list-style: none;
+	display: inline-block;
+}
+
+.body-wrapper{
+	width: 1280px;
+}
+/********************header ********************/
+header{
+	height: 534px;
+	background: url(../img/img.png) no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+
+header>.container{
+	width: 1200px;
+	padding: 50px;
+	height: 534px;
+}
+
+.logo{
+	font-family: "Myriad Pro";
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+}
+/********************right nav********************/
+header nav{
+	height: 35%;
+}
+.nav-menu
+{
+	font-family: "Myriad Pro";
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+}
+.nav-menu li{
+	margin: 0 10px;
+}
+.nav-menu li:hover
+{
+	text-decoration: underline;
+}
+.nav-menu .about{
+	color: #1abc9c;
+}
+/********************right nav end********************/
+/********************title box********************/
+header .title-box{
+	text-align: center;
+	height: 65%;
+}
+header .title{
+	font-family: Rokkitt;
+	font-size: 39px;
+	color: #fff;
+}
+header hr{
+	width: 656px;
+	height: 2px;
+}
+header .subtitle{
+	font-family: Quicksand;
+	font-size: 22px;
+	color: #fff;
+}
+/********************title box end********************/
+/********************header button********************/
+header .header-btn{
+	text-align: center;
+}
+header button
+{
+	width: 232px;
+	height: 61px;
+	background-color: #1abc9c;
+	border: solid 6px rgba(26,188,156,.59);
+	font-family: Rokkitt;
+	font-size: 24px;
+	color: #fff;
+}
+/********************header button end********************/
+/********************header end********************/
+
+/********************  intro  ********************/
+article .container{
+	padding: 200px 30px;
+}
+.intro h2
+{
+	font-family: "Myriad Pro";
+	font-size: 36px;
+	font-weight: bold;
+	color: #1abc9c;
+	text-align: center;
+}
+.intro p{
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #95a5a6;
+	text-align: center;
+	margin: auto 150px;
+	margin-bottom: 50px;
+}
+.intro h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: #1abc9c;
+	margin: 40px auto;
+}
+.intro section p{
+	margin: auto 30px;
+	font-size: 15px;
+	text-align: justify;
+}
+.icon-sketching{
+	width: 66px;
+	height: 66px;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	background-color: #1abc9c;
+	background: url(../img/icons.png) no-repeat;
+	background-position: left top;
+}
+.icon-design{
+	width: 56px;
+	height: 56px;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	background-color: #1abc9c;
+	background: url(../img/icons.png) no-repeat;
+	background-position: -62px 0;
+	background-size:  auto 56px;
+	
+}
+.icon-finalize{
+	width: 56px;
+	height: 56px;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	background-color: #1abc9c;
+	background: url(../img/icons.png) no-repeat;
+	background-position: -122px 0;
+	background-size:  auto 56px;
+}
+/********************  intro end ********************/
+/********************  portfolio ********************/
+.portfolio{
+	margin: 100px 30px;
+}
+.portfolio .row{
+	margin-bottom: 60px;
+}
+.portfolio .img{
+	display: block;
+	width: 427px;
+	height: 320px;
+	position: relative;
+}
+.portfolio .img-title-box{
+	position: absolute;
+	bottom: 0;
+	width: 427px;
+	height: 96px;
+	background-color: #1abc9c;
+	display: none;
+	text-indent: 2rem;
+	cursor: pointer;
+}
+.portfolio .img:hover .img-title-box{
+	display: block;
+}
+.img-title-box .line{
+	position: relative;
+	top: -6px;
+	height: 12px;
+	background-color: rgba(26,188,156,.59);
+}
+.portfolio .img:hover .img-title-box:hover .line{
+	top: -12px;
+	
+}
+.img-title-box .title{
+	font-family: Rokkitt;
+	font-size: 30px;
+	color: #fff;
+}
+.img-title-box .desc{
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	color: #297465;
+}
+.portfolio .img:hover:before{
+	display: block;
+	content: url(../img/view-icon.png);
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.img-1{
+	background: url(../img/i_15.png);
+}
+.img-2{
+	background: url(../img/i_16.png);
+}
+.img-3{
+	background: url(../img/i_16.png);
+}
+.img-4{
+	background: url(../img/i_17.png);
+}
+.view-more{
+	display: block;
+	width: 234px;
+	height: 62px;
+	background: url(../img/view-more.png);
+}
+/********************  portfolio end ********************/
+/********************  contact ********************/
+.h-line{
+	width: 1024px;
+	height: 2px;
+	background-color: #e4e8e8;
+}
+.contact{
+	text-align: center;
+}
+.contact .caption{
+	font-family: Rokkitt;
+	font-size: 39px;
+	color: #1abc9c;
+	margin: 70px auto;
+}
+.contact-nm, .contact-email{
+	font-family: Rokkitt;
+	font-size: 31px;
+	color: #cecece;
+	width: 394px;
+	height: 78px;
+	background-color: rgba(230,235,235,.8);
+	border: 0;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+.contact-nm{
+	position: relative;
+	left: -15px;
+}
+.contact-email{
+	position: relative;
+	left: 15px;
+}
+.contact textarea{
+	font-family: Rokkitt;
+	font-size: 31px;
+	color: #cecece;
+	width: 820px;
+	height: 267px;
+	background-color: rgba(230,235,235,.8);
+	border: 0;
+	padding: 15px;
+}
+/********************  contact end ********************/
+/********************  footer  ********************/
+footer{
+	width: 1280px;
+	height: 293px;
+	background-color: #1abc9c;
+	padding: auto 30px;
+}
+footer .container{
+	padding: 0 90px;
+}
+footer .row:first-child{
+	width: 820px;
+	position: relative;
+	margin: auto;
+	height: 200px;
+	position: relative;
+	top: -53px;
+}
+footer .icon{
+	display: block;
+	width: 107px;
+	height: 107px;
+	background-color: #fff;
+	/*border: solid 6px rgba(26,188,156,.59);*/
+}
+footer .twitter{
+	background: url(../img/footer-icons.png) no-repeat;
+}
+footer .dribbble{
+	background: url(../img/footer-icons.png) no-repeat;
+	background-position: -107px 1px;
+}
+footer .facebook{
+	background: url(../img/footer-icons.png) no-repeat;
+	background-position: -214px 0;
+}
+footer .copy{
+	font-family: Rokkitt;
+	font-size: 24px;
+	color: #fff;
+}
+footer .print{
+	font-family: Rokkitt;
+	font-size: 24px;
+	color: #fff;
+}
+/********************  footer end ********************/

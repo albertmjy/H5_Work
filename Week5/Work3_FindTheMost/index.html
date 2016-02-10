@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<pre>
+			function searchMostOccur(){
+			var arr = ['a','x','b','d','m','a','k','m','p','j','a']
+			
+			var mostOccur = [];
+			for (var i = 0; i < arr.length; i++) {
+				var currentOccur = [arr[i]];
+				for (var j = i; j < arr.length; j++) {
+					if (arr[j] == currentOccur[0]){
+						currentOccur.push(j);
+					}
+				}
+				if(currentOccur.length > mostOccur.length){
+					mostOccur = currentOccur
+				}
+				
+			}
+			
+			var text = document.getElementById("disp");
+			text.innerHTML = "The most occurred char is: <mark>" + mostOccur[0] + 
+					"</mark>, which appear <mark>" + (mostOccur.length - 1) + 
+					"</mark>. The positions are: <mark>" + mostOccur.slice(1) + "</mark>";
+		}
+			
+		</pre>
+	<button type="button" id='btn' onclick="searchMostOccur()"> search</button>
+	<h3><span id="disp"  style="font-size: ;"></span></h3>
+		<script>
+		function searchMostOccur(){
+			var arr = ['a','x','b','d','m','a','k','m','p','j','a']
+			
+			var mostOccur = [];
+			for (var i = 0; i < arr.length; i++) {
+				var currentOccur = [arr[i]];
+				for (var j = i; j < arr.length; j++) {
+					if (arr[j] == currentOccur[0]){
+						currentOccur.push(j);
+					}
+				}
+				if(currentOccur.length > mostOccur.length){
+					mostOccur = currentOccur
+				}
+				
+			}
+			
+			var text = document.getElementById("disp");
+			text.innerHTML = "The most occurred char is: <mark>" + mostOccur[0] + 
+					"</mark>, which appear <mark>" + (mostOccur.length - 1) + 
+					"</mark>. The positions are: <mark>" + mostOccur.slice(1) + "</mark>";
+		}
+		</script>
+		
+	</body>
+</html>

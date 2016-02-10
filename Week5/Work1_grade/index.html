@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<form action="index.html">
+			<input type="number" name="" id="s" value="" />
+			<button type="button" onclick="calcGrade(document.getElementById('s').value)">Go</button>
+		</form>
+		
+		<pre><code>
+			function calcGrade(score){
+				if(!score || isNaN(score) || score<0 || score>100){
+					alert("Invalid score: " + score );
+					return;
+				}
+					
+				// calcualte
+				var s = Math.floor(score / 10); 
+				switch (s){
+					case 10:
+						alert("Excllent! S level! Score:" + score)
+						break;
+					case 9:
+						alert("You got A. Score" + score)
+						break;
+					case 8:
+						alert("You got B. Score" + score)
+						break;
+					case 7:
+						alert("You got C. Score" + score)
+						break;
+					case 6:
+						alert("You got D. Score:" + score)
+						break;
+					default:
+						alert("You failed! " + score)
+						break;
+				}
+				
+			}
+			</code>
+		</pre>
+		<script>
+			function calcGrade(score){
+				if(!score || isNaN(score) || score<0 || score>100){
+					alert("Invalid score: " + score );
+					return;
+				}
+					
+				// calcualte
+				var s = Math.floor(score / 10); 
+				switch (s){
+					case 10:
+						alert("Excllent! S level! Score:" + score)
+						break;
+					case 9:
+						alert("You got A. Score" + score)
+						break;
+					case 8:
+						alert("You got B. Score" + score)
+						break;
+					case 7:
+						alert("You got C. Score" + score)
+						break;
+					case 6:
+						alert("You got D. Score:" + score)
+						break;
+					default:
+						alert("You failed! " + score)
+						break;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

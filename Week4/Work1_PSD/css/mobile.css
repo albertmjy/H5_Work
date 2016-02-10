@@ -1,0 +1,193 @@
+
+.wrapper{
+	width: 620px;
+	margin: 0 auto 20px auto;
+}
+
+/************** header *******************/
+.st-bar{
+	width: 620px;
+	height: 40px;
+	background-color: #ff5a28;
+	background: url(../img/m-stbar.png) no-repeat;
+}
+.nav-bar{
+	width: 620px;
+	height: 53px;
+	background-color: #ff5a28;
+	border-top: solid 1px #FAFAFA;
+	padding: 0 20px;
+	
+}
+.nav-bar .menu{
+	width: 22px;
+	height: 22px;
+	background: url(../img/m-navicons.png) no-repeat;
+	background-position: 0 0;
+	float: left;
+	margin: 15px 0;
+}
+.search{
+	width: 175px;
+	height: 35px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	margin: 8px 0;
+}
+.nav-bar .input-group:after{
+	content: "";
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(../img/m-navicons.png) no-repeat;
+	background-position: -36px 0;
+	top: 14px;
+	right: 5px;
+}
+header .banner{
+	width: 620px;
+	height: 120px;
+	background: url(../img/m-banner.png) no-repeat;
+}
+/************** header *******************/
+/************** aarticle *******************/
+article{
+	padding: 50px 0;
+}
+article .row{
+	height: 150px;
+}
+.nav-icon{
+	display: block;
+	width: 75px;
+	height: 75px;
+	margin: auto;
+}
+.pos-search{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: 0 0;
+}
+.pos-search:after{
+	content: "职位搜索";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+	color: #666;
+}
+.job{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -80px 0;
+}
+.job:after{
+	content: "附近的工作";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.pos{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -161px 0;
+}
+.pos:after{
+	content: "职位申请";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.enterprise{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -243px 0;
+}
+.enterprise:after{
+	content: "企业邀约";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.resume{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: 0 -80px;
+}
+.resume:after{
+	content: "我的简历";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.recurit{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -80px -81px;
+}
+.recurit:after{
+	content: "招聘会";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.salary{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -161px -81px;
+}
+.salary:after{
+	content: "查工资";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+.more{
+	background: url(../img/m-sprite.png) no-repeat;
+	background-position: -243px -81px;
+}
+.more:after{
+	content: "更多";
+	position: relative;
+	display: block;
+	text-align: center;
+	bottom: -100px;
+}
+/************** aarticle end` *******************/
+/************** footer` *******************/
+footer .top-img{
+	width: 620px;
+	height: 27px;
+	background: url(../img/m-ftop.png) no-repeat;
+}
+footer h2{
+	font-family: "Microsoft YaHei";
+	font-size: 24px;
+	line-height: 2;
+}
+footer p{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.f1 h2{
+	color: #f66;
+}
+.f1 p{
+	color: #c96;
+}
+.f2 h2{
+	color: #69c;
+}
+.f2 p{
+	color: #999;
+}
+.f3 h2{
+	color: #093;
+}
+.f3 p{
+	color: #6c9;
+}
+
+/************** footer` end *******************/

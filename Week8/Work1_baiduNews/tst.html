@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<script>
+			function Person(){
+				this.say = function(name, lang){
+					alert("my name is " +name + ", speaking " + lang + " ^0^")
+				}
+				this.cry = function(){
+					
+				}
+				
+			}
+			
+			Aspects = function(){}
+			Aspects.prototype = {
+				before: function(target, method, advice){
+					var origin = target[method]
+					target[method] = function(){
+						advice()
+//						origin(arguments)
+						origin.apply(target, arguments)
+					}
+					return target
+				}
+			}
+			
+			Aspects.prototype.after = function(target, method, advice){
+				var origin = target[method]
+				target[method ] =function(){
+					origin.apply(target, arguments)
+					advice()
+				}
+				return target
+			}
+			
+			
+//			
+//			var p = new Person()
+//			var a = new Aspects()
+//			a.before(p, "say", function(){alert("life is not easy!")})
+//			a.after(p, "say", function(){alert("life is not easy after all")})
+//			p.say("albert", "PHP")
+			
+			function test(x){
+				console.log("test: " + this)
+				alert("test " + x)
+			}
+			Function.prototype.before = function(fn){
+				console.log("before: " + this)
+				var __self = this
+				return function(){
+//					console.log("return: " +this)
+//					fn()
+					fn.apply(__self, arguments)
+					__self.apply(__self, arguments)
+				}
+			}
+			Function.prototype.after = function(fn){
+				console.log("after: " + this)
+				var __self = this
+				return function(){
+//					console.log(__self)
+					__self.apply(__self, arguments)
+					fn.apply(this, arguments)
+				}
+			}
+			test.before(function(y){
+				alert("before")
+			}).after(function(){
+				alert("after")
+			})(2)
+//			test.after(function(){
+//				alert("after")
+//			})(2)
+//			.after(function(){
+//				alert("after")
+//			})
+//			test()
+		</script>
+	</body>
+</html>

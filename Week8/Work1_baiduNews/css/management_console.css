@@ -1,0 +1,10 @@
+
+.side-bar{
+	/*padding: 0;
+	margin: 0;*/
+	position: fixed;
+}
+
+.nav-tabs>li {
+	margin-bottom: -2px;
+}

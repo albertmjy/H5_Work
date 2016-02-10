@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/main.css"  />
+		
+	</head>
+	<body>
+		
+		
+		<div class="panel panel-info well well-lg calc">
+		
+			<div class="panel-body ">
+				<div class="container-fluid">
+					<div class="row">
+						<input id="input-box" type="text" class="form-control input-lg" value="0" disabled="" style="background: #fff;" />
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-1 ">
+							<span >&nbsp;</span>
+						</div>
+						<div class="col-xs-1 col-xs-offset-9">
+							<span id="op"></span>
+						</div>
+						
+					</div>
+					
+					<div class="row form-group-lg">
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">7</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">8</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">9</button>
+						</div>
+						<div class="col-xs-3">
+							<button id="plus" type="button" class="form-control btn btn-info">+</button>
+							
+						</div>
+					</div>
+					<div class="row form-group-lg">
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">4</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">5</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">6</button>
+						</div>
+						<div class="col-xs-3">
+							<button id='minus' type="button" class="form-control btn btn-info">-</button>
+						</div>
+					</div>
+					<div class="row form-group-lg">
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">1</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">2</button>
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="form-control btn btn-default">3</button>
+						</div>
+						<div class="col-xs-3">
+							<button id="multiply" type="button" class="form-control btn btn-info">*</button>
+							
+						</div>
+					</div>
+					<div class="row form-group-lg">
+						<div class="col-xs-6">
+							<button type="button" class="form-control btn btn-default">0</button>
+						</div>
+						<div class="col-xs-3">
+							<button id="dot" type="button" class="form-control btn btn-success">.</button>
+						</div>
+						<div class="col-xs-3">
+							<button id='divid' type="button" class="form-control btn btn-info">/</button>
+						
+						</div>
+					</div>
+					<div class="row form-group-lg">
+						<div class="col-xs-6">
+							<button id="clear" type="button" class="form-control btn btn-default" ondblclick="reset()">A/C</button>
+						</div>
+
+						<div class="col-xs-6">
+							<button id="eq" type="button" class="form-control btn btn-warning">=</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

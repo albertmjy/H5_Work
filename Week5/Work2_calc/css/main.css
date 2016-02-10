@@ -1,0 +1,18 @@
+
+.calc{
+	width: 400px;
+	margin: auto
+}
+
+.row{
+	padding: 5px 0;
+}
+
+#input-box{
+	text-align: right;
+}
+
+.col-xs-3, .col-xs-6{
+	padding: 0 5px;
+}
+

@@ -1,0 +1,368 @@
+/********************** nav bar**************************/
+
+.jstext {
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	top: 0;
+	line-height: 1.6;
+	margin-top: 20px;
+	margin-right: 22px;
+	color: #fff;
+	z-index: 30;
+	text-align: center;
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/rH/qH/ec/qQ/FU/2/index_widthlg.png') no-repeat -20px -172px;
+}
+
+.infi {
+	display: inline-block;
+	background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/res/weather/v1/a53.png);
+	line-height: 30px;
+	vertical-align: middle;
+	width: 26px;
+	height: 30px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin: 0 5px;
+}
+
+.r {
+	vertical-align: middle;
+	margin: 5px;
+}
+
+.icon {
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+}
+
+.icon-1 {
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/rH/qH/ec/qQ/FU/2/index_widthlg.png') no-repeat;
+	background-position: -30px -116px;
+}
+
+.icon-2 {
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/rH/qH/ec/qQ/FU/2/index_widthlg.png') no-repeat;
+	background-position: -96px -116px;
+}
+
+.icon-3 {
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/rH/qH/ec/qQ/FU/2/index_widthlg.png') no-repeat;
+	background-position: -162px -116px;
+}
+
+.icon-4 {
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/rH/qH/ec/qQ/FU/2/index_widthlg.png') no-repeat;
+	background-position: -244px -116px;
+}
+
+.adv {
+	/*display: inline-block;*/
+	line-height: 55px;
+	vertical-align: middle;
+	margin: 0 20px;
+}
+
+
+/********************** nav bar end**************************/
+
+
+/********************** baidu search **************************/
+
+.baidu-logo {
+	float: right;
+	width: 104px;
+	height: 34px;
+	display: block;
+	background: url(../../Work1_calc_adv/img/webv2.png) left top no-repeat;
+}
+
+.form-control-feedback {
+	right: 106px;
+}
+
+.num-lb {
+	width: 20px;
+	height: 20px;
+	background: orange;
+	border-radius: 10px;
+	top: 14px;
+	position: absolute;
+	color: #FFF;
+	display: inline;
+	line-height: 100%;
+}
+
+.theme {
+	font-size: 10px;
+	font-weight: bolder;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 8px;
+	transition: all 0.4s;
+}
+
+.theme:hover {
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+}
+
+
+/********************** baidu search end **************************/
+
+
+/********************** menu bar **************************/
+
+ul {
+	padding: 0;
+}
+
+ul>li {
+	list-style: none;
+	display: inline;
+	margin: 0 7px;
+}
+
+ul>li>a {
+	font-size: 12px;
+	color: #666;
+}
+
+.nav-text-left>a {
+	color: #090;
+	margin-top: 3px;
+	float: left;
+	font-size: 12px;
+}
+
+.nav-text-right >a {
+	color: #090;
+	margin-top: 3px;
+	float: right;
+	margin-right: 100px;
+	font-size: 12px
+}
+
+.hot-row {
+	padding-top: 10px;
+}
+
+.menu-bar {
+	width: 100%;
+	border-top: solid 2px #0aa770;
+}
+
+.menu-bar ul li {
+	font-family: Microsoft Yahei;
+	font-size: 16px;
+	color: #333;
+	line-height: 20px;
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+}
+
+.menu-bar li.active {
+	background: #0aa770;
+	color: #fff;
+}
+
+.menu-bar li.active:hover {
+	color: #fff;
+}
+
+.menu-bar li:hover {
+	color: #0aa770;
+}
+
+
+/********************** menu bar end **************************/
+
+
+/****************** category area **********************/
+
+.split {
+	margin: 0 5px;
+}
+
+.cat-row {
+	padding: 5px 0;
+}
+
+.cat-icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/Hz/mn/Ev/BX/8z/2/index_menus_widthlg.png') no-repeat;
+}
+
+.i-1 {
+	background-position: -20px -81px;
+}
+
+.i-2 {
+	background-position: -19px -301px;
+}
+
+.i-3 {
+	background-position: -20px -160px;
+}
+
+.i-4 {
+	background-position: -20px -381px;
+}
+
+.i-5 {
+	background-position: -20px -100px;
+}
+
+.i-6 {
+	background-position: -20px -261px;
+}
+
+.i-7 {
+	background-position: -20px -21px;
+}
+
+.i-8 {
+	background-position: -20px -121px;
+}
+
+.i-9 {
+	background-position: -20px -281px;
+}
+
+.i-10 {
+	background-position: -20px -362px;
+}
+
+.i-11 {
+	background-position: -20px -221px;
+}
+
+.i-12 {
+	background-position: -19px -42px;
+}
+
+a {
+	color: #666;
+}
+
+a:hover {
+	color: #666;
+}
+
+.content .col-sm-3 {
+	margin: 0;
+	padding: 0;
+}
+
+.content .thumbnail {
+	border-radius: 0;
+	padding: 10px;
+}
+
+
+/****************** category area end**********************/
+
+
+/****************** right content **********************/
+
+.right-content a {
+	color: #333;
+}
+
+.right-content .icon {
+	width: 25px;
+	height: 20px;
+	float: left;
+	background: url(https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/defaultIcon1229.png) no-repeat;
+}
+
+.right-content .i-1 {
+	background-position: 2px -198px;
+}
+
+.right-content .i-2 {
+	background-position: 2px -278px;
+}
+
+.right-content .i-3 {
+	background-position: 2px -318px;
+}
+
+.right-content .i-4 {
+	background-position: 2px -38px;
+}
+
+.right-content .i-5 {
+	background-position: 2px -157px;
+}
+
+.right-content .i-6 {
+	background: url(https://gss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/1821.png) no-repeat;
+}
+
+.right-content .i-7 {
+	background: url(https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/shouye/mingzhan/tianmao2015082101.gif) no-repeat;
+}
+
+.right-content .i-8 {
+	background-position: 2px -238px;
+}
+
+.right-content .i-9 {
+	background-position: 2px -358px;
+}
+
+.right-content .i-10 {
+	background: url(https://gss3.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/game0331.png) no-repeat;
+}
+
+.right-content .i-11 {
+	background-position: 2px -2px;
+}
+
+.right-content .i-12 {
+	background: url(https://gss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/10435.png) no-repeat;
+}
+
+.right-content .i-13 {
+	background: url(https://gss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/21.1.png) no-repeat;
+}
+
+.right-content .i-14 {
+	background: url(https://gss3.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/8.411.png) no-repeat;
+}
+
+.right-content .i-15 {
+	background: url(https://gss3.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6282.png) no-repeat;
+}
+
+.right-content .i-16 {
+	background: url(https://gss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/1419388771.png) no-repeat;
+}
+
+.right-content .i-17 {
+	background: url(https://gss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/2554.png) no-repeat;
+}
+
+.right-content .i-18 {
+	background-position: 2px -198px;
+}
+
+.right-content .row {
+	padding: 5px;
+}
+
+.right-content .row:last-child a {
+	color: #118850;
+}
+
+
+/****************** right content end**********************/

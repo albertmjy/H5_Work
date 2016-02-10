@@ -1,0 +1,45 @@
+[
+	{
+		"type": "clip",
+		"clip": [{
+				"src": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=555577587,2702495822&fm=58",
+				"title": "安倍称朝鲜核试验绝对不能容忍",
+				"dura": "00:12"
+			},{
+				"src": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1698245051,3923639729&fm=58",
+				"title": "朝鲜中央台：氢弹试验为反抗美国帝国主义侵略",
+				"dura": "01:03"
+			}
+		]
+		
+	},
+	{
+		"type": "clip",
+		"clip": [{
+				"src": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=820928076,3066433142&fm=58",
+				"title": "朝鲜称不会率先使用核武 绝不会终止发展核武",
+				"dura": "01:02"
+			},{
+				"src": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3961554549,2493091729&fm=58",
+				"title": "小偷销赃遇正主 慌不择路跳高桥",
+				"dura": "01:17"
+			}
+		]
+	},
+	{
+		"type": "电影",
+		"src": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=448343507,2192660612&fm=58",
+		"title": "不可思议",
+		"dura": "99:25",
+		"rate": "6.1"
+	},
+	{
+		"type": "电影",
+		"src": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2979104639,2612706789&fm=58",
+		"title": "大圣归来",
+		"dura": "94:11",
+		"rate": "8.4"
+	}
+	
+	
+]

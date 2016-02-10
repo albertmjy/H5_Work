@@ -1,0 +1,34 @@
+[
+	{
+		"icon": "question",
+		"text": "问答"
+	},
+	{
+		"icon": "wiki",
+		"text": "WIKI"
+	},
+	{
+		"icon": "lesson",
+		"text": "课程"
+	},
+	{
+		"icon": "group",
+		"text": "社群"
+	},
+	{
+		"icon": "download",
+		"text": "下载"
+	},
+	{
+		"icon": "know",
+		"text": "知识"
+	},
+	{
+		"icon": "career",
+		"text": "职业"
+	},
+	{
+		"icon": "vip",
+		"text": "VIP"
+	}
+]

@@ -1,0 +1,42 @@
+
+.calc{
+	width: 500px;
+	margin: auto
+}
+
+.row{
+	padding: 5px 0;
+}
+
+#input-box{
+	text-align: right;
+	margin: 10px;
+}
+
+.col-xs-3, .col-xs-6{
+	padding: 0 5px;
+}
+
+
+.btn{
+	height: 100%;
+}
+.flex-con{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.button{
+	height: 40px;
+	width: 60px;	
+	margin: 10px;
+	flex: 1;
+}
+
+.flex-1{
+	/*flex: 1;*/
+}
+.flex-2{
+	flex:2;
+}
+
