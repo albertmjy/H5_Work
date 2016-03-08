@@ -1,0 +1,17 @@
+
+.side-bar{
+	/*padding: 0;
+	margin: 0;*/
+	/*position: fixed;*/
+}
+
+.nav-tabs>li {
+	margin-bottom: -2px;
+}
+
+@media screen and (max-width: 768px){
+	.navbar .nav{
+		display: none;
+
+	}
+}

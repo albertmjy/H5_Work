@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Management Console</title>
+
+  <!-- build:css stylesheets/m-console.all.min.css -->
+  <!-- bower:css -->
+  <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/management_console.css" rel="stylesheet">
+  <!-- endbower -->
+  <!-- endbuild -->
+
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">Management Console</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+    </ul>
+    <div class="nav navbar-nav navbar-right">
+      <button type="button" class="btn btn-info navbar-btn">Message<span class="badge">5</span></button>
+      <img src="img/th.jpeg" class="img-circle" style="height: 30px; background: #02BB00;" />
+      <button type="button" href="#" class="btn btn-link navbar-btn navbar-link">Sign out</button>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="navbar"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 side-bar well well-sm">
+      <div>
+        <ul class="nav nav-pills nav-stacked " id="left-menu">
+          <li class="active"><a href="#recommand" data-toggle='pill'>Recommand</a></li>
+          <li><a href="#news" data-toggle='pill'>News</a></li>
+          <li><a href="#local" data-toggle='pill'>Local</a></li>
+          <li><a href="#image" data-toggle='pill'>Image</a></li>
+          <li><a href="#entertainment" data-toggle='pill'>Entertainment</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="r-panel" class="col-sm-10">
+      <div class="tab-content">
+        <div id="recommand" class="tab-pane fade in active">
+          <%- include("inc/news-form.ejs", {id: "rec"})%>
+        </div>
+        <div id="news" class="tab-pane fade">
+          <%- include("inc/news-form.ejs", {id: "news"})%>
+        </div>
+        <div id="local" class="tab-pane fade">
+          <%- include("inc/news-form.ejs", {id: "local"})%>
+        </div>
+        <div id="image" class="tab-pane fade">
+          <%- include("inc/big-img-news-form.ejs", {id: "image"})%>
+        </div>
+        <div id="entertainment" class="tab-pane fade">
+          <%- include("inc/news-form.ejs", {id:"ent"})%>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- build:js /javascripts/m-console.all.min.js -->
+<!-- bower:js -->
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/m-console.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+</body>
+
+</html>
